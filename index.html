@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gian Hàng Tết - Lớp 10A3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hình người trang trí -->
+    <div class="corner-decoration">
+        <div class="person-icon"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <h1>🎉 GIAN HÀNG TẾT 2026 🎉</h1>
+        <p class="subtitle">Lớp 10A3 - Trường THPT Đặng Thai Mai</p>
+        <div class="school-info">
+            <p class="location">📍 Trường THPT Đặng Thai Mai, Quảng Bình, Thanh Hóa</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Intro -->
+        <div class="intro">
+            <h2>🏮 Chào Mừng Xuân Mới! 🏮</h2>
+            <p>
+                Chào mừng quý khách đến với gian hàng Tết của lớp 10A3! 
+                Chúng em xin gửi đến quý khách những sản phẩm đặc biệt nhất cho mùa Tết Ất Tỵ 2026.
+                Với tinh thần nhiệt huyết và sáng tạo, lớp 10A3 đã chuẩn bị những mặt hàng chất lượng,
+                mang đậm hương vị truyền thống để phục vụ Quý khách trong dịp Tết này.
+            </p>
+        </div>
+
+        <!-- Products Section -->
+        <div class="products-section">
+            <h2>🛍️ DANH MỤC SẢN PHẨM</h2>
+            
+            <div id="productGrid" class="product-grid">
+                <!-- Sản phẩm mẫu - bạn có thể xóa và thêm sản phẩm của mình -->
+                <div class="product-card" data-category="food">
+                    <div class="product-icon">🍜</div>
+                    <div class="product-name">Đồ ăn</div>
+                    <div class="product-desc">Các loại đồ ăn mà gian hàng có bán</div>
+                </div>
+
+                <div class="product-card" data-category="drink">
+                    <div class="product-icon">🥤</div>
+                    <div class="product-name">Đồ uống</div>
+                    <div class="product-desc">Các loại nước giải khát mà cửa hàng có</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>🎊 Lớp 10A3 - Trường THPT Đặng Thai Mai 🎊</p>
+        <p>Chúc Quý khách năm mới An Khang - Thịnh Vượng!</p>
+        <p style="margin-top: 10px; font-size: 0.9em;">© 2026 - Gian Hàng Tết Lớp 10A3</p>
+    </footer>
+
+    <!-- Modal hiển thị menu -->
+    <div id="menuModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <div id="menuList" class="menu-list"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
